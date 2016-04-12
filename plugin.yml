@@ -1,0 +1,4 @@
+name: Craftworld
+main: craftworld.Craftworld
+version: 1.0
+commands:
