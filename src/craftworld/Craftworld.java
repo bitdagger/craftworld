@@ -48,6 +48,9 @@ public final class Craftworld extends JavaPlugin implements Listener
     	
     	NMSUtils nms = new NMSUtils();
     	nms.registerEntity("Bat", 65, EntityBat.class, CustomEntityBat.class);
+    	nms.registerEntity("Skeleton", 51, EntitySkeleton.class, CustomEntitySkeleton.class);
+    	nms.registerEntity("Creeper", 50, EntityCreeper.class, CustomEntityCreeper.class);
+    	nms.registerEntity("Zombie", 54, EntityZombie.class, CustomEntityZombie.class);
     	
     }
     
